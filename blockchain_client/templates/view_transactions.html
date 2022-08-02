@@ -101,7 +101,7 @@
 <script language="JavaScript">
     $(function() {
         $('#view_transactions_btn').click(function() {
-            console.log("SIUUUUU");
+            // console.log("SIUUUUU");
             console.log($('#node').val());
             
             if($('#node').val()==""){
@@ -112,7 +112,7 @@
                 url: 'http://' + $('#node').val() + '/chain',
                 type: "GET",
                 success: function(response) {
-                    console.log("SIU x2");
+                    // console.log("SIU x2");
                     console.log(response)
                     let transactions = [];
                     let count = 1;
@@ -134,7 +134,7 @@
                             transactions.push(transaction);
                             count += 1;
                         }
-                        console.log("SIU x3");
+                        // console.log("SIU x3");
                     }
                     console.log(transactions);
 

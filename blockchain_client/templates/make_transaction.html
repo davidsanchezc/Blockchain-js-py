@@ -251,7 +251,7 @@
                 });
             });
             $('#button_confirm_transaction').click(function() {
-                console.log("SIUU");
+                // console.log("SIUU");
                 $.ajax({
                     url: $('#node_url').val() + '/transaction/new',
                     type: "POST",
@@ -272,7 +272,7 @@
                         $('#success_transaction_modal').modal('show');
                     },
                     error: function(error) {
-                        alert("gaaaaa");
+                        // alert("gaaaaa");
                         console.log(error);
                     }
                 });
