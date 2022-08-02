@@ -1,0 +1,12 @@
+body {
+	padding-top: 54px;
+    font-family: 'Lora', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row {
+    padding: 4pt;
+}
